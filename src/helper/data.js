@@ -39,7 +39,7 @@ export const studentData = [
     student: "Taha Bera",
     day: new Date(),
     onay: true,
-    teacher: "Oznur Sahan",
+    teacher: "Murat Dağ",
   },
 ];
 
@@ -47,9 +47,10 @@ export const teacherData = [
   {
     id: 1,
     name: "Alpaslan Akkisi",
-    dep: "Maths",
-    img: "./img/Alp.jpg",
+    dep: "Turkish",
+    img: "./img/ogr.png",
   },
+
   {
     id: 2,
     name: "Oznur Sahan",
@@ -59,13 +60,25 @@ export const teacherData = [
   {
     id: 3,
     name: "Evrim Boz",
-    dep: "Turkish",
+    dep: "German",
     img: "./img/evrim.png",
   },
   {
     id: 4,
     name: "Gokhan Koca",
     dep: "Science",
-    img: "./img/dr4.jpg",
+    img: "/img/Gokhan.jpg",
+  },
+  {
+    id: 5,
+    name: "Murat Dağ",
+    dep: "Maths",
+    img: "./img/Alp.jpg",
+  },
+  {
+    id: 5,
+    name: "Selma Say",
+    dep: "Musıc",
+    img: "./img/muzık.jpg",
   },
 ];

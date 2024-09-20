@@ -1,5 +1,5 @@
 const DersList = () => {
-  return <div>DersList</div>;
+  return <div></div>;
 };
 
 export default DersList;
