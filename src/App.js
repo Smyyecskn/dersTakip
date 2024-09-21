@@ -1,13 +1,11 @@
-import Container from "react-bootstrap/Container";
-import Home from "./Home/Home";
+import Home from "./pages/Home";
+import "./App.css";
 
 function App() {
   return (
-    <div>
+    <div className="body">
       <h1 className="text-center mt-3">
-        <Container>
-          <Home />
-        </Container>
+        <Home />
       </h1>
     </div>
   );

@@ -1,0 +1,23 @@
+body {
+  background: rgb(63, 94, 251);
+  background: radial-gradient(
+    circle,
+    rgba(63, 94, 251, 1) 0%,
+    rgba(83, 188, 160, 1) 44%,
+    rgba(152, 82, 184, 1) 47%,
+    rgba(160, 81, 178, 1) 51%
+  );
+}
+.img {
+  width: 50%;
+  transition: transform 0.5s;
+  border-radius: 2rem;
+  max-height: 200px;
+  min-height: 200px;
+}
+
+img:hover {
+  transform: scale(1.05);
+  border: 2px solid yellowgreen;
+  cursor: pointer;
+}
