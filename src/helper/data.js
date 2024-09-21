@@ -1,10 +1,10 @@
 export const studentData = [
   {
     id: 1,
-    student: "Berra Coskun",
+    student: "Zeynep Berra ",
     day: new Date(),
     ok: true,
-    teacher: "Alpaslan Akkişi",
+    teacher: "Alpaslan Kişi",
   },
   {
     id: 2,
